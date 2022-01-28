@@ -1,8 +1,16 @@
 <template>
   <div class="content">
-    <h1>Meine Blogs</h1>
-    <div class="blog-container" v-if="blogs.length">
-      <v-card v-for="blog in blogs" :key="blog.id">
+    <div v-if="blogs.length" class="blog-wrapper">
+      <v-card
+        :to="{ name: 'blog', params: { id: blog.id } }"
+        class="card"
+        v-for="blog in blogs"
+        :key="blog.id"
+      >
+        <v-img
+          class="blog-image"
+          :src="'https://picsum.photos/1920/1080?random=' + blog.id"
+        ></v-img>
         <v-card-header>
           <v-card-header-text>
             <v-card-title>{{ blog.title }}</v-card-title>
@@ -33,15 +41,12 @@ export default class AboutView extends Vue {
 .content {
   padding: 1rem;
 }
-.blog-container {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  margin: -0.5rem;
-  margin-top: 1rem;
+.blog-image {
+  background-size: cover;
 }
-.blog-container .v-card {
-  flex: 0 0 calc(33% - 1rem);
-  margin: 0.5rem;
+.blog-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 1rem;
 }
 </style>

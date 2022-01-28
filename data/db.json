@@ -1,12 +1,12 @@
 {
   "blogs": [
-    { "id": 1, "title": "Mein erster Blog", "description": "Lorem ipsum dolor sit amet" },
-    { "id": 2, "title": "Mein zweiter Blog", "description": "Lorem ipsum dolor sit amet" },
-    { "id": 3, "title": "Mein dritter Blog", "description": "Lorem ipsum dolor sit amet" },
-    { "id": 4, "title": "Mein vierter Blog", "description": "Lorem ipsum dolor sit amet" },
-    { "id": 5, "title": "Mein fünfter Blog", "description": "Lorem ipsum dolor sit amet" },
-    { "id": 6, "title": "Mein sechster Blog", "description": "Lorem ipsum dolor sit amet" },
-    { "id": 7, "title": "Mein siebter Blog", "description": "Lorem ipsum dolor sit amet" },
-    { "id": 8, "title": "Mein achter Blog", "description": "Lorem ipsum dolor sit amet" }
+    { "id": 1, "title": "Mein erster Blog", "description": "Lorem ipsum dolor sit amet", "img": "https://source.unsplash.com/random" },
+    { "id": 2, "title": "Mein zweiter Blog", "description": "Lorem ipsum dolor sit amet", "img": "https://source.unsplash.com/random" },
+    { "id": 3, "title": "Mein dritter Blog", "description": "Lorem ipsum dolor sit amet", "img": "https://source.unsplash.com/random" },
+    { "id": 4, "title": "Mein vierter Blog", "description": "Lorem ipsum dolor sit amet", "img": "https://source.unsplash.com/random" },
+    { "id": 5, "title": "Mein fünfter Blog", "description": "Lorem ipsum dolor sit amet", "img": "https://source.unsplash.com/random" },
+    { "id": 6, "title": "Mein sechster Blog", "description": "Lorem ipsum dolor sit amet", "img": "https://source.unsplash.com/random" },
+    { "id": 7, "title": "Mein siebter Blog", "description": "Lorem ipsum dolor sit amet", "img": "https://source.unsplash.com/random" },
+    { "id": 8, "title": "Mein achter Blog", "description": "Lorem ipsum dolor sit amet", "img": "https://source.unsplash.com/random" }
   ]
 }
